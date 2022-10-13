@@ -18,5 +18,45 @@
             </nav>
             <hr>
         </header>
+        <h1>Get in Touch</h1>
+
+        <form action="thanks.html" netlify method="post">
+            <fieldset>
+                <legend>Employer Information</legend>
+
+                <p>
+                    <label for="fullName">Full Name:</label><br>
+                    <input type="text" name="fullName" id="fullName">
+                </p>
+                <p>
+                    <label for="companyName">Company Name:</label><br>
+                    <input type="text" name="companyName" id="companyName">
+                </p>
+                <p>
+                    <label for="positionTitle">Position Title:</label><br>
+                    <input type="text" name="positionTitle" id="positionTitle">
+                </p>
+                <p>
+                    <label for="emailAddress">Email Address:</label><br>
+                    <input type="email" name="emailAddress" id="emailAddress">
+                </p>
+                <p>
+                    <label for="telephone">Telephone Number:</label><br>
+                    <input type="tel" name="telephone" id="telephone">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <label for="freeform">Let me know your thoughts:</label>
+                <textarea id="freeform" name="freeform" rows="6" cols="50">
+                </textarea>
+            </fieldset>
+
+            <p>
+                <a href="./thanks.html">
+                 <button>Submit</button>
+                </a>
+            </p>
+        </form>
     </body>
 </html>
